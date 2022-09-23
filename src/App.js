@@ -4,9 +4,8 @@ import { useState } from 'react';
 import data from './data.js';
 import Cart from './routes/Cart';
 import Detail from './routes/Detail.js';
-import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
+import { Routes, Route, useNavigate, Outlet } from 'react-router-dom';
 import axios from 'axios';
-import {QueryClient, QueryClientProvider , useQuery} from '@tanstack/react-query';
 
 function App() {
 

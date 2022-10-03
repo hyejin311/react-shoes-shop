@@ -83,7 +83,7 @@ function Event(){
 function Prod(props) {
   return (
     <div className='col-md-4 shoespic'>
-      <img src={"https://codingapple1.github.io/shop/shoes" + props.i + ".jpg"} alt="shoes" width="80%" />
+      <img src={"https://codingapple1.github.io/shop/shoes" + (props.i+1) + ".jpg"} alt="shoes" width="80%" />
       <h3 className='shoesname'>
         {props.shoes.title}</h3>
       <p>{props.shoes.content}</p>
